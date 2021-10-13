@@ -2,7 +2,7 @@
 
 ## <a href="blockchain-monitoring-3a911">Ссылка на приложение</a>
 
-## blockchain-monitor
+## Описание
 
 - Адаптивное приложение для вывода графиков по API, предоставленного проктом blockchain.com.
 
