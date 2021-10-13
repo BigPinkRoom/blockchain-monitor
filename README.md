@@ -1,24 +1,36 @@
-# blockchain-monitor
+# blockchain-monitor.
 
-## Project setup
+## <a href="https://banner-editor-31e75.web.app/">Ссылка на приложение</a>
+
+![alt text](screenshots/banner-editor-preview.jpg)
+
+## blockchain-monitor
+
+- Адаптивное приложение для вывода графиков по API, предоставленного проктом blockchain.com.
+
+### При разработке пользовался:
+
+- Vue
+- Vue-router
+- Vue bootstrap
+- Vue apexcharts
+- Vue axios
+- Firebase (хостинг)
+
+## Настройка проекта и установка необходимых пакетов
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Компиляция и запуск на localhost:3999
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Компиляция и минимизация
+
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

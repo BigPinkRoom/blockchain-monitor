@@ -1,17 +1,19 @@
 <template>
-  <b-container>
+  <b-container class="px-0">
     <b-row>
-      <b-col cols="12" v-for="chart in charts" :key="chart.id">
-        <chart-module :title="chart.title" :type="chart.type" />
+      <b-col class="mb-3" md="12" xl="4" v-for="chart in charts" :key="chart.id">
+        <b-card no-body>
+          <b-card-header>
+            <b-card-title class="h6">{{ chart.title }}</b-card-title>
+          </b-card-header>
+          <chart-module :type="chart.type" />
+        </b-card>
       </b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
-// import ChartMarketPrice from './components/ChartMarketPrice';
-// import ChartDifficulty from './components/ChartDifficulty';
-// import ChartCostPerTransaction from './components/ChartCostPerTransaction';
 import ChartModule from './components/ChartModule';
 
 export default {

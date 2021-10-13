@@ -21,6 +21,7 @@ export default {
 
   data() {
     return {
+      counter: null,
       series: [
         {
           name: '',

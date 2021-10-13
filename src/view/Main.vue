@@ -1,17 +1,19 @@
 <template>
   <div>
-    <b-contaner>
+    <b-container class="px-0" fluid>
       <b-row>
         <b-col>
           <v-header></v-header>
         </b-col>
       </b-row>
+    </b-container>
+    <b-container>
       <b-row>
         <b-col>
           <v-chart></v-chart>
         </b-col>
       </b-row>
-    </b-contaner>
+    </b-container>
   </div>
 </template>
 

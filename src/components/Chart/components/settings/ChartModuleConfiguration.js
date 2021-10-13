@@ -24,7 +24,8 @@ export function getOptions(settings) {
       curve: 'straight',
     },
     title: {
-      text: settings.title,
+      show: false,
+      text: '',
       align: 'center',
     },
     grid: {
