@@ -3,7 +3,7 @@ import chartServices from '@/services/chart';
 
 class Chart extends ApiModule {
   async getMarketPrice(params) {
-    const response = await this.request('/charts/market-price?format=json1&cors=true', 'get', params);
+    const response = await this.request('/charts/market-price?format=json&cors=true', 'get', params);
     return chartServices.convertData(response);
   }
 
