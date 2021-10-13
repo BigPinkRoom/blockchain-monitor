@@ -1,8 +1,6 @@
-# blockchain-monitor.
+# blockchain-monitor
 
-## <a href="https://banner-editor-31e75.web.app/">Ссылка на приложение</a>
-
-![alt text](screenshots/banner-editor-preview.jpg)
+## <a href="blockchain-monitoring-3a911">Ссылка на приложение</a>
 
 ## blockchain-monitor
 
